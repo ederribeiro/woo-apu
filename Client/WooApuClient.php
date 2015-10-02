@@ -9,6 +9,6 @@ class WooApuClient extends WC_API_Client
     
     public function __construct($consumerKey, $consumerSecret, $shop, $debug)
     {
-        parent::__construct($shop, $consumerKey, $consumerSecret);
+        parent::__construct($shop, $consumerKey, $consumerSecret, ['ssl_verify'=>false]);
     }
 }
