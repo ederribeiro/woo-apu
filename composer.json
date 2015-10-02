@@ -13,6 +13,7 @@
         "MIT"
     ],
     "require" : {
+        "woothemes/woocommerce-api" : "2.0.*"
     },
     "autoload" : {
         "psr-4" : {
