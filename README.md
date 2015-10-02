@@ -1,4 +1,4 @@
-# WooApuBundle a woocommerce rest api bundle for symfony2
+# WooApu a WooCommerce REST API bundle
 
 ## License
 
