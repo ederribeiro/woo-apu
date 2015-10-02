@@ -1,0 +1,30 @@
+{
+    "name" : "ederribeiro/wooapubundle",
+    "description" : "A WooCommerce REST API bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Eder Ribeiro",
+        "email" : "eder@ederibeiro.com"
+    }],
+    "keywords" : [
+        "woocommerce rest api bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Woo\\ApuBundle" : ""
+        }
+    },
+    "target-dir" : "Woo/ApuBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "1.0.0-dev"
+        }
+    }
+}
