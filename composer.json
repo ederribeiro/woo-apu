@@ -17,10 +17,9 @@
     },
     "autoload" : {
         "psr-4" : {
-            "Woo\\ApuBundle" : ""
+            "Woo\\ApuBundle\\" : ""
         }
     },
-    "target-dir" : "Woo/ApuBundle",
     "repositories" : [{
     }],
     "extra" : {
