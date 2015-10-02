@@ -1,8 +1,7 @@
 # WooApu 
 ### A WooCommerce REST API bundle
 
-Installation
-============
+## Installation
 
 Step 1: Download Bundle
 
@@ -42,6 +41,21 @@ $ composer update
 ```
 When the key is requested, put the key from woocommerce panel.
 
+## Usage
+
+Just get the client service from symfony container
+```php
+<?php
+class MyTest
+{
+	public function __construct(ContainerInterface $container)
+    {
+        $client = $container->get("wooapu.client");
+        // and do your magic
+    }
+}
+?>
+```
 
 ## License
 
