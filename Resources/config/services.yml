@@ -1,0 +1,4 @@
+services:
+    wooapu.client:
+        class: Woo\ApuBundle\Client\WooApuClient
+        arguments: ["%woo_apu.consumer_key%","%woo_apu.consumer_secret%","%woo_apu.shop%","%kernel.debug%"]
